@@ -20,7 +20,7 @@ function Hero() {
         <div className="md:mt-2 md:w-1/2">
           <img
             src={profileImage}
-            alt="Profile image"
+            alt="Abdul Mannan - Senior Frontend Engineer"
             width={320}
             className="rounded-3xl shadow-2xl"
           />
@@ -33,29 +33,34 @@ function Hero() {
             Hi, I'm Abdul Mannan!
           </h1>
           <p className="font-semibold text-xl mt-4 mb-6 md:text-2xl">
-            <span className="">I'm a JavaScript Full-Stack Developer</span>
+            <span className="">I'm a Senior Full Stack Engineer</span>
           </p>
           <p className="mt-4 mb-10 text-gray-300 md:text-lg">
-            React | Redux | TypeScript | Node | Express | NextJS
+            React | Next.js | TypeScript | Redux | GraphQL | Node.js
             <br />
-            HTML | CSS | Sass | TailwindCSS | MySQL | MongoDB
+            Tailwind CSS | ShadCN UI | Performance Optimization
           </p>
-          {/* <a
-						target="_blank"
-						href={cv}
-						className="text-secondary-foreground font-semibold px-6 py-3 bg-teal-700 hover:bg-primary rounded-lg shadow transition"
-					>
-						Download CV
-					</a> */}
-          <ScrollLink
-            smooth={true}
-            offset={-100}
-            spy={true}
-            to="contact"
-            className="text-primary-foreground font-semibold px-6 py-3 bg-secondary rounded-lg cursor-pointer shadow hover:bg-accent transition"
-          >
-            Contact
-          </ScrollLink>
+
+          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start">
+            <ScrollLink
+              smooth={true}
+              offset={-100}
+              spy={true}
+              to="contact"
+              className="text-primary-foreground font-semibold px-6 py-3 bg-secondary rounded-lg cursor-pointer shadow hover:bg-accent transition"
+            >
+              Get In Touch
+            </ScrollLink>
+            <ScrollLink
+              smooth={true}
+              offset={-100}
+              spy={true}
+              to="projects"
+              className="text-gray-300 font-semibold px-6 py-3 border border-gray-600 rounded-lg cursor-pointer shadow hover:bg-gray-800 transition"
+            >
+              View My Work
+            </ScrollLink>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

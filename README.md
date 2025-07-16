@@ -4,7 +4,7 @@
 
 This portfolio webpage is a personal project designed to showcase my work, projects, and professional journey. It's a simple, one-page layout with distinct sections including Hero, About, Skills, Projects, and Contact. The design, first conceptualized in Figma for both mobile and desktop modes, follows a clean and modern aesthetic. Developed using React, TypeScript, and Tailwind CSS, this site embodies a mobile-first approach and integrates Web3Forms for the contact section.
 
-### 🏠 [Demo Link](https://gustavopassarella.co.uk)
+### 🏠 [Demo Link](https://mani444.github.io)
 
 ![alt text](src/assets/images/readme.png)
 
@@ -17,26 +17,24 @@ This portfolio webpage is a personal project designed to showcase my work, proje
 
 ## 🚀 Design and Development
 
-### [Figma Design Link](https://www.figma.com/file/oblZ3C9UhGpxUSQkVsq5FX/portfolio?type=design&node-id=337%3A105&mode=design&t=deSWZc5le47gXNBm-1)
-
-- **Figma Prototyping:** Initially designed in Figma, ensuring a visually appealing and functional user interface.
 - **React and TypeScript:** Built with React and TypeScript, providing a robust and efficient framework for the portfolio.
+- **Modern UI:** Clean and professional design with smooth animations and interactive elements.
 
 ## 🔧 Installation and Setup
 
 Clone the repository
 
 ```
-git clone https://github.com/Gunnar50/portfolio-react-ts.git
+git clone https://github.com/mani444/mani444.github.io.git
 ```
 
 Navigate to the project directory
 
 ```
-cd portfolio-react-ts
+cd mani444.github.io
 ```
 
-Install dependecies
+Install dependencies
 
 ```
 npm install
@@ -62,7 +60,7 @@ Creating this portfolio was not just about showcasing my skills and projects; it
 
 ## ⭐️ Show your support
 
-Give a start if you liked and this project helped you!
+Give a star if you liked and this project helped you!
 
 ## 📝 License
 

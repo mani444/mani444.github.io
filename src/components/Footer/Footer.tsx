@@ -1,8 +1,4 @@
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineYoutube,
-} from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,7 +12,7 @@ function Footer() {
 
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
-            href="https://github.com/Gunnar50/"
+            href="https://github.com/mani444/"
             rel="noreferrer"
             target="_blank"
           >
@@ -33,16 +29,6 @@ function Footer() {
           >
             <AiOutlineLinkedin
               className="hover:-translate-y-1 hover:text-linkedin transition cursor-pointer text-neutral-100"
-              size={40}
-            />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UC2B6jn5wufNzYQdu6tiRvew"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineYoutube
-              className="hover:-translate-y-1 hover:text-youtube transition cursor-pointer text-neutral-100"
               size={40}
             />
           </a>
