@@ -20,7 +20,7 @@ function Hero() {
         <div className="md:mt-2 md:w-1/2">
           <img
             src={profileImage}
-            alt="Abdul Mannan - Senior Frontend Engineer"
+            alt="Abdul Mannan - Senior Full Stack Engineer"
             width={320}
             className="rounded-3xl shadow-2xl"
           />
