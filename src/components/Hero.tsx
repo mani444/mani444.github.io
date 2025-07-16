@@ -1,7 +1,7 @@
 import { HiArrowDown } from "react-icons/hi";
 import { Link as ScrollLink } from "react-scroll/modules";
 import bgImage from "../assets/bgpattern3.png";
-import profileImage from "../assets/images/profileImage2.png";
+import profileImage from "../assets/images/profileImage2.jpg";
 
 function Hero() {
   return (
@@ -22,7 +22,7 @@ function Hero() {
             src={profileImage}
             alt="Profile image"
             width={320}
-            className="rounded-full shadow-2xl"
+            className="rounded-3xl shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5 relative">
