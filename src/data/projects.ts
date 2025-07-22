@@ -1,15 +1,8 @@
-import aurora from "../assets/projects/aurora/main.png";
-import gentile from "../assets/projects/gentile/main1.jpg";
-import lego from "../assets/projects/lego-homage/main1.png";
-import linesc from "../assets/projects/linesc/main1.png";
-import listshop from "../assets/projects/list-shop/main.png";
-import pathfinding from "../assets/projects/pathfinding/main.png";
-// import portfolio from "../assets/projects/portfolio/main2.png";
-import simpsons from "../assets/projects/simpsons-quotes/main1.png";
-import tictactoe from "../assets/projects/tictactoe/main1.png";
-import todo from "../assets/projects/todo-app/main.png";
-import weather from "../assets/projects/weather-app/main1.png";
-import w3l from "../assets/projects/what3letters/main1.png";
+import lastOfWarriors from "../assets/projects/last-of-warriors/main.jpg";
+import afriMl from "../assets/projects/afri-ml/main.jpg";
+import gotobeat from "../assets/projects/gotobeat/main.jpg";
+import teamOrganizer from "../assets/projects/team-organizer/main.jpg";
+import meritpick from "../assets/projects/meritpick/main.jpg";
 
 export type ProjectType = {
   id: number;
@@ -27,134 +20,68 @@ export type ProjectType = {
 export const projects: ProjectType[] = [
   {
     id: 0,
-    title: "Gentile Etiquetas Website",
-    about: "Wordpress custom theme",
+    title: "Last of the Warriors",
+    about:
+      "NFT series of 10,000 unique warriors - digital soldiers adventuring across the Metaverse.",
     description: "",
-    thumbnail: gentile,
-    tech: ["Wordpress", "PHP", "JavaScript"],
+    thumbnail: lastOfWarriors,
+    tech: ["React", "Netlify", "Vite"],
     github: "",
-    link: "http://gentileetiquetas.com.br",
+    link: "https://clever-moxie-bfaa6d.netlify.app/",
     filter: ["All", "Web Development"],
-    type: "Web Development",
+    type: "",
   },
   {
     id: 1,
-    title: "Aurora Byte Cipher",
-    about: "Encryption & Decrpyiton algorithm",
+    title: "Afri-ML",
+    about:
+      "Machine learning program helping African kids train computers to recognize African culture, nature and accents.",
     description: "",
-    thumbnail: aurora,
-    tech: ["Python", "Tkinter", "Crypto Library"],
-    github: "https://github.com/Gunnar50/AuroraByteCipher",
-    link: "",
-    filter: ["All", "Software Development", "Scripts"],
-    type: "Python Software",
+    thumbnail: afriMl,
+    tech: ["Vite + React", "Tailwind CSS", "Radix UI"],
+    github: "https://github.com/mani444/afri-ml",
+    link: "https://afri-ml.vercel.app/",
+    filter: ["All", "Web Development"],
+    type: "",
   },
   {
     id: 2,
-    title: "LinEsc Privilege Escalation",
-    about: "Privilege Escalation toolkit for linux systems.",
-    description: "Privilege Escalation toolkit for linux systems.",
-    thumbnail: linesc,
-    tech: ["Python", "Bash", "Kali Linux"],
-    github: "https://github.com/Gunnar50/LinEscPrivilegeEscalation",
-    link: "",
-    filter: ["All", "Scripts"],
-    type: "Python Script",
+    title: "Gotobeat",
+    about:
+      "Ultimate platform connecting artists with live performance opportunities and music lovers with concerts.",
+    description: "",
+    thumbnail: gotobeat,
+    tech: ["Remix", "Vite", "Tailwind CSS"],
+    github: "",
+    link: "https://gotobeat.com/",
+    filter: ["All", "Web Development"],
+    type: "",
   },
   {
     id: 3,
-    title: "LEGO Homage Piece",
-    about: "Homage project of LEGO.com",
+    title: "Team Organizer",
+    about:
+      "Interactive system for team organization, delegation, and expert consultation.",
     description: "",
-    thumbnail: lego,
-    tech: ["HTML", "CSS", "SASS"],
-    github: "https://github.com/Gunnar50/lego-index-clone",
-    link: "https://afri-ml.vercel.app/",
+    thumbnail: teamOrganizer,
+    tech: ["Next.js (React 19)", "Tailwind CSS", "Node.js + Express"],
+    github:
+      "https://github.com/mani444?tab=repositories&q=clica+y+delega&type=&language=&sort=",
+    link: "https://app.tueresimparable.com/",
     filter: ["All", "Web Development"],
-    type: "Frontend",
+    type: "",
   },
   {
     id: 4,
-    title: "WeatherApp",
-    about: "Weather web app designed to provide real-time weather info",
+    title: "MeritPick",
+    about:
+      "Consulting firm specializing in strategy and technology implementation for Fortune 50 enterprises.",
     description: "",
-    thumbnail: weather,
-    tech: ["HTML", "SASS", "JavaScript", "OpenWeather API"],
-    github: "https://github.com/Gunnar50/weatherapp-vanilla-javascript",
-    link: "https://afri-ml.vercel.app/",
-    filter: ["All", "Web Development", "Web Application"],
-    type: "Web Application",
-  },
-  {
-    id: 5,
-    title: "The Simpsons Quote Generator",
-    about: 'Web application that generates quotes from "The Simpsons"',
-    description: "",
-    thumbnail: simpsons,
-    tech: ["React", "SASS", "JavaScript"],
-    github: "https://github.com/Gunnar50/react-simpsons-quotes",
-    link: "https://afri-ml.vercel.app/",
-    filter: ["All", "Web Development", "Web Application"],
-    type: "Web Application",
-  },
-  {
-    id: 6,
-    title: "Tic-Tac-Toe",
-    about: "Classic game featuring an unbeatable AI",
-    description: "",
-    thumbnail: tictactoe,
-    tech: ["React", "SASS", "JavaScript", "Minimax"],
-    github: "https://github.com/Gunnar50/react-tictactoe",
-    link: "https://afri-ml.vercel.app/",
-    filter: ["All", "Web Application", "Challenges"],
-    type: "Web Application",
-  },
-  {
-    id: 7,
-    title: "Todo List",
-    about: "Todo app challenge from Frontend Mentor",
-    description: "",
-    thumbnail: todo,
-    tech: ["React", "Redux", "Local Storage", "SASS"],
-    github: "https://github.com/Gunnar50/react-redux-todolist",
-    link: "https://afri-ml.vercel.app/",
-    filter: ["All", "Web Application", "Challenges"],
-    type: "Web Application",
-  },
-  {
-    id: 8,
-    title: "What Three Letters",
-    about: "Hackathon Project - Interactive app for learning and reading",
-    description: "",
-    thumbnail: w3l,
-    tech: ["React", "SASS", "Node"],
-    github: "https://github.com/Gunnar50/what-three-letter",
-    link: "https://what-three-letters.netlify.app/",
-    filter: ["All", "Web Development", "Challenges"],
-    type: "Web Application",
-  },
-  {
-    id: 9,
-    title: "List Shop Save",
-    about: "Supermarket Price Comparator Full Stack Application",
-    description: "",
-    thumbnail: listshop,
-    tech: ["React", "Redux", "GSAP", "Node", "Express", "MySQL"],
-    github: "https://github.com/Gunnar50/list-shop-save-react-node",
-    link: "",
-    filter: ["All", "Web Application", "Web Development"],
-    type: "Web Application",
-  },
-  {
-    id: 10,
-    title: "Pathfinding Visualiser",
-    about: "Project to better understand and visualise pathfinding algorithms",
-    description: "",
-    thumbnail: pathfinding,
-    tech: ["React", "TypeScript", "GSAP", "Pathfinding", "Algorithms"],
-    github: "https://github.com/Gunnar50/pathfinding-visualiser-ts",
-    link: "https://afri-ml.vercel.app/",
-    filter: ["All", "Challenges"],
-    type: "Web Application",
+    thumbnail: meritpick,
+    tech: ["Next.js", "Redux Toolkit", "MongoDB + Mongoose"],
+    github: "https://github.com/mani444/meritpick",
+    link: "https://meritpick.com/",
+    filter: ["All", "Web Development"],
+    type: "",
   },
 ];
