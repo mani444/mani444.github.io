@@ -7,7 +7,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { Textarea } from "./textarea";
 
-const email = "abdulmannan3111a@gmail.com";
+const email = "abdulmannan3111@gmail.com";
 
 function Contact() {
   const [loading, setLoading] = useState(false);
@@ -17,7 +17,7 @@ function Contact() {
     setLoading(true);
     const formData = new FormData(event.target as HTMLFormElement);
 
-    formData.append("access_key", "bb4d7297-595d-4a43-bbe9-718d25d09d9d");
+    formData.append("access_key", "6f897b9b-c3c5-407b-b16a-cc3596c419f3");
 
     try {
       const response = await axios.post(

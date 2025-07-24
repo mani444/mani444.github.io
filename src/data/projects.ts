@@ -1,8 +1,8 @@
-import lastOfWarriors from "../assets/projects/last-of-warriors/main.jpg";
-import afriMl from "../assets/projects/afri-ml/main.jpg";
-import gotobeat from "../assets/projects/gotobeat/main.jpg";
-import teamOrganizer from "../assets/projects/team-organizer/main.jpg";
-import meritpick from "../assets/projects/meritpick/main.jpg";
+import lastOfWarriors from "../assets/projects/last-of-warriors/main.webp";
+import afriMl from "../assets/projects/afri-ml/main.webp";
+import gotobeat from "../assets/projects/gotobeat/main.webp";
+import teamOrganizer from "../assets/projects/team-organizer/main.webp";
+import meritpick from "../assets/projects/meritpick/main.webp";
 
 export type ProjectType = {
   id: number;
@@ -20,6 +20,20 @@ export type ProjectType = {
 export const projects: ProjectType[] = [
   {
     id: 0,
+    title: "Team Organizer",
+    about:
+      "Interactive system for team organization, delegation, and expert consultation.",
+    description: "",
+    thumbnail: teamOrganizer,
+    tech: ["Next.js (React 19)", "Tailwind CSS", "Node.js + Express"],
+    github:
+      "https://github.com/mani444?tab=repositories&q=clica+y+delega&type=&language=&sort=",
+    link: "https://app.tueresimparable.com/",
+    filter: ["All", "Web Development"],
+    type: "",
+  },
+  {
+    id: 1,
     title: "Last of the Warriors",
     about:
       "NFT series of 10,000 unique warriors - digital soldiers adventuring across the Metaverse.",
@@ -32,7 +46,7 @@ export const projects: ProjectType[] = [
     type: "",
   },
   {
-    id: 1,
+    id: 2,
     title: "Afri-ML",
     about:
       "Machine learning program helping African kids train computers to recognize African culture, nature and accents.",
@@ -45,7 +59,7 @@ export const projects: ProjectType[] = [
     type: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "Gotobeat",
     about:
       "Ultimate platform connecting artists with live performance opportunities and music lovers with concerts.",
@@ -54,20 +68,6 @@ export const projects: ProjectType[] = [
     tech: ["Remix", "Vite", "Tailwind CSS"],
     github: "",
     link: "https://gotobeat.com/",
-    filter: ["All", "Web Development"],
-    type: "",
-  },
-  {
-    id: 3,
-    title: "Team Organizer",
-    about:
-      "Interactive system for team organization, delegation, and expert consultation.",
-    description: "",
-    thumbnail: teamOrganizer,
-    tech: ["Next.js (React 19)", "Tailwind CSS", "Node.js + Express"],
-    github:
-      "https://github.com/mani444?tab=repositories&q=clica+y+delega&type=&language=&sort=",
-    link: "https://app.tueresimparable.com/",
     filter: ["All", "Web Development"],
     type: "",
   },
