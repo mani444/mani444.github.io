@@ -17,22 +17,25 @@ function Contact() {
     setLoading(true);
     const formData = new FormData(event.target as HTMLFormElement);
 
-    formData.append("access_key", "6f897b9b-c3c5-407b-b16a-cc3596c419f3");
+    // formData.append("access_key", "6f897b9b-c3c5-407b-b16a-cc3596c419f3");
 
     try {
       const response = await axios.post(
-        "https://api.web3forms.com/submit",
+        "https://formspree.io/f/xkgzrrwe",
         formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        },
+        // {
+        //   headers: {
+        //     "Content-Type": "multipart/form-data",
+        //   },
+        // },
       );
 
-      if (response.data.success) {
+      if (response.data.ok) {
         // console.log("Success", response);
-        toast.success(response.data.message);
+        toast.success("Email sent successfully!");
+
+        // Reset the form
+        (event.target as HTMLFormElement).reset();
       } else {
         // console.log("Error", response);
         toast.error(response.data.message);
@@ -87,7 +90,7 @@ function Contact() {
                 name="subject"
                 value="New Submission From Contact Form. http://mani444.github.io/"
               ></input>
-              <input type="checkbox" name="botcheck" className="hidden"></input>
+              {/* <input type="checkbox" name="botcheck" className="hidden"></input> */}
 
               <Input type="text" name="name" placeholder="Name" required />
               <Input type="email" name="email" placeholder="Email" required />
